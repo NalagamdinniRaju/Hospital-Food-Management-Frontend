@@ -11,7 +11,7 @@ const REACT_APP_API_URL = "https://hospital-food-manager-backend.onrender.com";
 const DeliveryDashboard = () => {
   const [deliveries, setDeliveries] = useState([]);
   const [filteredDeliveries, setFilteredDeliveries] = useState([]);
-  const [statusFilter, setStatusFilter] = useState('pending');
+  const [statusFilter, setStatusFilter] = useState('all');
   const [socket, setSocket] = useState(null);
 
   
